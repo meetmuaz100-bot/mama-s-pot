@@ -1,0 +1,374 @@
+{
+  "name": "Mama's Pot",
+  "metadata": {
+    "tagline": "Authentic Nigerian flavours, cooked with love",
+    "businessName": "Mama's Pot"
+  },
+  "globals": {
+    "footer": {
+      "id": "16a34e67-e3bb-48db-a6d0-fbf4323bbd7e",
+      "type": "footer",
+      "props": {
+        "legal": "© Mama's Pot. 22 Admiralty Way, Lekki Phase 1, Lagos.",
+        "links": [],
+        "social": [],
+        "tagline": "Authentic Nigerian flavours, cooked with love",
+        "logoText": "Mama's Pot"
+      },
+      "styles": {
+        "background": "dark"
+      },
+      "variant": "columns"
+    },
+    "header": {
+      "id": "4b0c9f03-2ab5-4f66-9e43-c2c441106729",
+      "type": "navbar",
+      "props": {
+        "cta": {
+          "href": "/contact",
+          "label": "Reserve a table"
+        },
+        "links": [],
+        "logoText": "Mama's Pot",
+        "logoImage": {
+          "alt": "",
+          "url": "",
+          "query": ""
+        }
+      },
+      "styles": {},
+      "variant": "centered"
+    }
+  },
+  "design": {
+    "colors": {
+      "dark": "#24170f",
+      "text": "#2b1d14",
+      "muted": "#6e5a4b",
+      "accent": "#3B1F0A",
+      "border": "#ead9c6",
+      "primary": "#C85A00",
+      "surface": "#f6ecdf",
+      "darkText": "#fafaf9",
+      "background": "#fffaf3",
+      "primaryText": "#ffffff"
+    },
+    "typography": {
+      "scale": 1.05,
+      "bodyFont": "Lato",
+      "headingCase": "none",
+      "headingFont": "Playfair Display",
+      "headingWeight": 400
+    },
+    "spacing": {
+      "section": 104,
+      "container": 1200
+    },
+    "radius": {
+      "base": 14,
+      "button": 999
+    },
+    "shadows": {
+      "level": "soft"
+    }
+  },
+  "pages": [
+    {
+      "id": "98b7c89a-87a6-472f-8088-7761b3b941b7",
+      "name": "Home",
+      "slug": "/",
+      "seo": {
+        "title": "Mama's Pot – Nigerian Restaurant in Lekki, Lagos",
+        "description": "Dine on jollof rice, pounded yam, suya and pepper soup at Mama's Pot, a family-run Nigerian restaurant on Admiralty Way, Lekki. Reserve your table today."
+      },
+      "sections": [
+        {
+          "id": "544c472b-2a31-4232-ae70-a980732031a3",
+          "type": "hero",
+          "variant": "fullbleed",
+          "props": {
+            "image": {
+              "alt": "A spread of Nigerian dishes on a warm restaurant table",
+              "url": "https://images.pexels.com/photos/13994299/pexels-photo-13994299.jpeg?auto=compress&cs=tinysrgb&w=1600",
+              "query": "Nigerian jollof rice feast table",
+              "credit": "Photo by Keesha's  Kitchen on Pexels",
+              "creditUrl": "https://www.pexels.com/@keesha-s-kitchen-22731136"
+            },
+            "eyebrow": "Lekki's family kitchen",
+            "headline": "Real Nigerian food, made with love",
+            "primaryCta": {
+              "href": "/contact",
+              "label": "Reserve a table"
+            },
+            "subheadline": "From jollof rice to pounded yam and suya, every dish is cooked the way it should be — fresh, bold and full of flavour.",
+            "secondaryCta": {
+              "href": "/menu",
+              "label": "View the menu"
+            }
+          },
+          "styles": {}
+        },
+        {
+          "id": "22904d20-292c-4ccc-b0dd-b6869e82804c",
+          "type": "about",
+          "variant": "imageRight",
+          "props": {
+            "cta": {
+              "href": "/menu",
+              "label": "See the full menu"
+            },
+            "body": "Mama's Pot was born from a love of good food and the belief that a proper Nigerian meal brings people together. Every recipe we serve has been passed down and cooked with care.\n\nWe're a family-run restaurant on Admiralty Way, Lekki, and we cook the food we grew up eating — bold, honest and made from scratch every day.",
+            "image": {
+              "alt": "Warm and welcoming interior of Mama's Pot restaurant",
+              "url": "https://images.pexels.com/photos/28988083/pexels-photo-28988083.jpeg?auto=compress&cs=tinysrgb&w=1600",
+              "query": "Nigerian family restaurant warm interior",
+              "credit": "Photo by Safari  Consoler on Pexels",
+              "creditUrl": "https://www.pexels.com/@safari-consoler-3290243"
+            },
+            "bullets": [
+              {
+                "text": "Dine-in Tuesday to Sunday, 11am–10pm"
+              },
+              {
+                "text": "Table reservations welcome"
+              },
+              {
+                "text": "Event and party catering orders available"
+              }
+            ],
+            "eyebrow": "Our story",
+            "heading": "A family kitchen, open to all"
+          },
+          "styles": {}
+        },
+        {
+          "id": "d15efcd3-1f46-476d-b014-1abeeba69885",
+          "type": "menu",
+          "variant": "columns",
+          "props": {
+            "intro": "Classics cooked the right way. Here's a taste of what's on the menu.",
+            "items": [
+              {
+                "name": "Jollof Rice with Chicken",
+                "price": "₦6,500",
+                "category": "Signature Dishes",
+                "description": "Slow-cooked party jollof rice served with tender grilled chicken."
+              },
+              {
+                "name": "Pounded Yam & Egusi",
+                "price": "₦7,000",
+                "category": "Signature Dishes",
+                "description": "Smooth pounded yam paired with rich, well-seasoned egusi soup."
+              },
+              {
+                "name": "Suya Platter",
+                "price": "₦8,500",
+                "category": "Signature Dishes",
+                "description": "Skewered, spiced beef suya served with sliced onions and tomatoes."
+              },
+              {
+                "name": "Pepper Soup",
+                "price": "₦5,000",
+                "category": "Signature Dishes",
+                "description": "Fragrant, light broth with your choice of fish or meat — deeply warming."
+              }
+            ],
+            "eyebrow": "Our menu",
+            "heading": "Dishes worth coming back for"
+          },
+          "styles": {
+            "background": "surface"
+          }
+        },
+        {
+          "id": "dabaa5c5-70d7-4929-8a2b-924591ffd7ae",
+          "type": "gallery",
+          "variant": "masonry",
+          "props": {
+            "intro": "A glimpse of the dishes and atmosphere waiting for you at Mama's Pot.",
+            "images": [
+              {
+                "image": {
+                  "alt": "Jollof rice with grilled chicken on a plate",
+                  "url": "https://images.pexels.com/photos/13915043/pexels-photo-13915043.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "Nigerian jollof rice chicken plated",
+                  "credit": "Photo by Keesha's  Kitchen on Pexels",
+                  "creditUrl": "https://www.pexels.com/@keesha-s-kitchen-22731136"
+                },
+                "caption": "Jollof Rice with Chicken"
+              },
+              {
+                "image": {
+                  "alt": "Smooth pounded yam served with egusi soup",
+                  "url": "https://images.pexels.com/photos/37648018/pexels-photo-37648018.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "pounded yam egusi soup bowl",
+                  "credit": "Photo by Tochukwu  Ekeh on Pexels",
+                  "creditUrl": "https://www.pexels.com/@tochukwu-ekeh-2149052634"
+                },
+                "caption": "Pounded Yam & Egusi"
+              },
+              {
+                "image": {
+                  "alt": "Suya platter with spiced beef skewers and onions",
+                  "url": "https://images.pexels.com/photos/17312401/pexels-photo-17312401.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "suya beef skewers platter",
+                  "credit": "Photo by Victor Cayke on Pexels",
+                  "creditUrl": "https://www.pexels.com/@vikeph"
+                },
+                "caption": "Suya Platter"
+              },
+              {
+                "image": {
+                  "alt": "A bowl of fragrant Nigerian pepper soup",
+                  "url": "https://images.pexels.com/photos/6126979/pexels-photo-6126979.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "Nigerian pepper soup bowl",
+                  "credit": "Photo by Rachel Claire on Pexels",
+                  "creditUrl": "https://www.pexels.com/@rachel-claire"
+                },
+                "caption": "Pepper Soup"
+              },
+              {
+                "image": {
+                  "alt": "Warm and inviting dining area at Mama's Pot",
+                  "url": "https://images.pexels.com/photos/3822749/pexels-photo-3822749.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "Nigerian restaurant warm dining room",
+                  "credit": "Photo by Magda Ehlers on Pexels",
+                  "creditUrl": "https://www.pexels.com/@magda-ehlers-pexels"
+                },
+                "caption": ""
+              },
+              {
+                "image": {
+                  "alt": "Friends sharing a meal together at a Nigerian restaurant",
+                  "url": "https://images.pexels.com/photos/3184178/pexels-photo-3184178.jpeg?auto=compress&cs=tinysrgb&w=1600",
+                  "query": "friends sharing Nigerian food restaurant",
+                  "credit": "Photo by fauxels on Pexels",
+                  "creditUrl": "https://www.pexels.com/@fauxels"
+                },
+                "caption": ""
+              }
+            ],
+            "eyebrow": "From our kitchen",
+            "heading": "Food made to be savoured"
+          },
+          "styles": {}
+        },
+        {
+          "id": "3b05aa7d-a0b0-4f72-9790-d8cd55f96d4e",
+          "type": "contact",
+          "variant": "split",
+          "props": {
+            "email": "hello@mamaspot.ng",
+            "hours": "Tuesday – Sunday: 11am – 10pm\nClosed Mondays",
+            "intro": "Walk-ins are always welcome. Reservations are recommended, especially on weekends.",
+            "phone": "+234 809 555 1234",
+            "address": "22 Admiralty Way, Lekki Phase 1, Lagos",
+            "eyebrow": "Visit us",
+            "heading": "Come and eat",
+            "formAction": "",
+            "formEnabled": false,
+            "submitLabel": "Send"
+          },
+          "styles": {}
+        },
+        {
+          "id": "1804d898-ff54-4bb3-be10-b59c3af503e7",
+          "type": "cta",
+          "variant": "banner",
+          "props": {
+            "body": "Reserve a table or get in touch about catering for your next event or party.",
+            "heading": "Bring the family, we'll handle the food",
+            "primaryCta": {
+              "href": "/contact",
+              "label": "Reserve a table"
+            },
+            "secondaryCta": {
+              "href": "#contact",
+              "label": "Event catering enquiry"
+            }
+          },
+          "styles": {
+            "background": "primary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "113edc90-0ffc-4d34-921a-435891956ef9",
+      "name": "Menu",
+      "slug": "/menu",
+      "seo": {
+        "title": "Our Menu – Mama's Pot Lekki",
+        "description": "Browse Mama's Pot's full menu of authentic Nigerian dishes including jollof rice, pounded yam & egusi, suya platters and pepper soup. Dine in or order for events."
+      },
+      "sections": [
+        {
+          "id": "83c74633-5b4d-4c81-9bc8-a0f163b6a2b4",
+          "type": "menu",
+          "variant": "columns",
+          "props": {
+            "intro": "All dishes are prepared fresh daily. For event and party orders, please contact us directly.",
+            "items": [
+              {
+                "name": "Jollof Rice with Chicken",
+                "price": "₦6,500",
+                "category": "Signature Dishes",
+                "description": "Slow-cooked party jollof rice served with tender grilled chicken."
+              },
+              {
+                "name": "Pounded Yam & Egusi",
+                "price": "₦7,000",
+                "category": "Signature Dishes",
+                "description": "Smooth pounded yam paired with rich, well-seasoned egusi soup."
+              },
+              {
+                "name": "Suya Platter",
+                "price": "₦8,500",
+                "category": "Signature Dishes",
+                "description": "Skewered, spiced beef suya served with sliced onions and tomatoes."
+              },
+              {
+                "name": "Pepper Soup",
+                "price": "₦5,000",
+                "category": "Signature Dishes",
+                "description": "Fragrant, light broth with your choice of fish or meat — deeply warming."
+              }
+            ],
+            "eyebrow": "Our menu",
+            "heading": "Everything we cook"
+          },
+          "styles": {}
+        }
+      ]
+    },
+    {
+      "id": "56d802fb-5a4f-40db-aabd-c827f6d22ad0",
+      "name": "Contact & Reservations",
+      "slug": "/contact",
+      "seo": {
+        "title": "Reserve a Table – Mama's Pot Lekki Lagos",
+        "description": "Book a table or make an event catering enquiry at Mama's Pot, 22 Admiralty Way, Lekki Phase 1. Call +234 809 555 1234 or email hello@mamaspot.ng."
+      },
+      "sections": [
+        {
+          "id": "8b7f0472-e795-4b9b-bd5d-b588b0721561",
+          "type": "contact",
+          "variant": "split",
+          "props": {
+            "email": "hello@mamaspot.ng",
+            "hours": "Tuesday – Sunday: 11am – 10pm\nClosed Mondays",
+            "intro": "Fill in the form to request a table reservation or ask about catering for your event or party. We'll confirm by email or phone.",
+            "phone": "+234 809 555 1234",
+            "address": "22 Admiralty Way, Lekki Phase 1, Lagos",
+            "eyebrow": "Get in touch",
+            "heading": "Reserve a table or enquire about events",
+            "formAction": "",
+            "formEnabled": true,
+            "submitLabel": "Send enquiry"
+          },
+          "styles": {}
+        }
+      ]
+    }
+  ]
+}
